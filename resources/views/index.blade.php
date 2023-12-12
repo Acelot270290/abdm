@@ -10,19 +10,19 @@
 
     <title> Site - Modelo Apresenta Cesa </title>
     
-    <link href="{{asset('/css/themify-icons.css')}}" rel="stylesheet">
-    <link href="{{asset('/css/flaticon.css')}}" rel="stylesheet">
-    <link href="{{asset('/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{asset('/css/animate.css')}}" rel="stylesheet">
-    <link href="{{asset('/css/owl.carousel.css')}}" rel="stylesheet">
-    <link href="{{asset('/css/owl.theme.css')}}" rel="stylesheet">
-    <link href="{{asset('/css/slick.css')}}" rel="stylesheet">
-    <link href="{{asset('/css/slick-theme.css')}}" rel="stylesheet">
-    <link href="{{asset('/css/swiper.min.css')}}" rel="stylesheet">
-    <link href="{{asset('/css/odometer-theme-default.css')}}" rel="stylesheet">
-    <link href="{{asset('/css/owl.transitions.css')}}" rel="stylesheet">
-    <link href="{{asset('/css/jquery.fancybox.css')}}" rel="stylesheet">
-    <link href="{{asset('/css/style.css')}}" rel="stylesheet">
+    <link href="/css/themify-icons.css" rel="stylesheet">
+    <link href="/css/flaticon.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/animate.css" rel="stylesheet">
+    <link href="/css/owl.carousel.css" rel="stylesheet">
+    <link href="/css/owl.theme.css" rel="stylesheet">
+    <link href="/css/slick.css" rel="stylesheet">
+    <link href="/css/slick-theme.css" rel="stylesheet">
+    <link href="/css/swiper.min.css" rel="stylesheet">
+    <link href="/css/odometer-theme-default.css" rel="stylesheet">
+    <link href="/css/owl.transitions.css" rel="stylesheet">
+    <link href="/css/jquery.fancybox.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>

@@ -10,19 +10,19 @@
 
     <title> Site - Modelo Apresenta Cesa </title>
     
-    <link href="assets/css/themify-icons.css" rel="stylesheet">
-    <link href="assets/css/flaticon.css" rel="stylesheet">
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/animate.css" rel="stylesheet">
-    <link href="assets/css/owl.carousel.css" rel="stylesheet">
-    <link href="assets/css/owl.theme.css" rel="stylesheet">
-    <link href="assets/css/slick.css" rel="stylesheet">
-    <link href="assets/css/slick-theme.css" rel="stylesheet">
-    <link href="assets/css/swiper.min.css" rel="stylesheet">
-    <link href="assets/css/odometer-theme-default.css" rel="stylesheet">
-    <link href="assets/css/owl.transitions.css" rel="stylesheet">
-    <link href="assets/css/jquery.fancybox.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="{{asset('/css/themify-icons.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/flaticon.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/animate.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/owl.carousel.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/owl.theme.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/slick.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/slick-theme.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/swiper.min.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/odometer-theme-default.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/owl.transitions.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/jquery.fancybox.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/style.css')}}" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -67,7 +67,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index-2.html"><img src="assets/images/logo.png" alt></a>
+                        <a class="navbar-brand" href="index-2.html"><img src="/images/logo.png" alt></a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse navigation-holder">
                         <button class="close-navbar"><i class="ti-close"></i></button>
@@ -152,7 +152,7 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="slide-inner slide-bg-image" data-background="assets/images/slider/slide-1.jpg">
+                        <div class="slide-inner slide-bg-image" data-background="/images/slider/slide-1.jpg">
                             <div class="container">
                                 <div data-swiper-parallax="300" class="slide-title">
                                     <h2>The Best Move you will Ever Make</h2>
@@ -170,7 +170,7 @@
                     </div> <!-- end swiper-slide -->
 
                     <div class="swiper-slide">
-                        <div class="slide-inner slide-bg-image" data-background="assets/images/slider/slide-2.jpg">
+                        <div class="slide-inner slide-bg-image" data-background="/images/slider/slide-2.jpg">
                             <div class="container">
                                 <div data-swiper-parallax="300" class="slide-title">
                                     <h2>The Best Move you will Ever Make</h2>
@@ -228,7 +228,7 @@
                     <div class="col col-md-6">
                         <div class="right-col">
                             <div class="img-holder">
-                                <img src="assets/images/about.png" alt>
+                                <img src="/images/about.png" alt>
                             </div>
                             <div class="video-holder">
                                 <a href="https://www.youtube.com/embed/7e90gBu4pas?autoplay=1" class="hero-video-btn video-btn"  data-type="iframe" tabindex="0"><i class="fi flaticon-play-button"></i>Watch our intro video</a> 
@@ -364,7 +364,7 @@
                 <div class="row">
                     <div class="col col-md-4">
                         <div class="testimonial-left-img-holder">
-                            <img src="assets/images/testimonials/man.png" alt>
+                            <img src="/images/testimonials/man.png" alt>
                         </div>
                     </div>
                     <div class="col col-md-8">
@@ -376,7 +376,7 @@
                                 </div>
                                 <div class="client-info">
                                     <div class="img-holder">
-                                        <img src="assets/images/testimonials/img-1.jpg" alt>
+                                        <img src="/images/testimonials/img-1.jpg" alt>
                                     </div>
                                     <div class="details">
                                         <h5>Michel jhon</h5>
@@ -391,7 +391,7 @@
                                 </div>
                                 <div class="client-info">
                                     <div class="img-holder">
-                                        <img src="assets/images/testimonials/img-2.jpg" alt>
+                                        <img src="/images/testimonials/img-2.jpg" alt>
                                     </div>
                                     <div class="details">
                                         <h5>Alaska</h5>
@@ -406,7 +406,7 @@
                                 </div>
                                 <div class="client-info">
                                     <div class="img-holder">
-                                        <img src="assets/images/testimonials/img-3.jpg" alt>
+                                        <img src="/images/testimonials/img-3.jpg" alt>
                                     </div>
                                     <div class="details">
                                         <h5>Shain on</h5>
@@ -483,19 +483,19 @@
                     <div class="col col-xs-12">
                         <div class="partner-grids partners-slider">
                             <div class="grid">
-                                <img src="assets/images/partners/img-1.jpg" alt>
+                                <img src="/images/partners/img-1.jpg" alt>
                             </div>
                             <div class="grid">
-                                <img src="assets/images/partners/img-2.jpg" alt>
+                                <img src="/images/partners/img-2.jpg" alt>
                             </div>
                             <div class="grid">
-                                <img src="assets/images/partners/img-3.jpg" alt>
+                                <img src="/images/partners/img-3.jpg" alt>
                             </div>
                             <div class="grid">
-                                <img src="assets/images/partners/img-4.jpg" alt>
+                                <img src="/images/partners/img-4.jpg" alt>
                             </div>
                             <div class="grid">
-                                <img src="assets/images/partners/img-5.jpg" alt>
+                                <img src="/images/partners/img-5.jpg" alt>
                             </div>
                         </div>
                     </div>
@@ -565,7 +565,7 @@
                             <div class="grid">
                                 <div class="img-social">
                                     <div class="img-holder">
-                                        <img src="assets/images/team/img-1.jpg" alt>
+                                        <img src="/images/team/img-1.jpg" alt>
                                     </div>
                                     <div class="social">
                                         <ul>
@@ -584,7 +584,7 @@
                             <div class="grid">
                                 <div class="img-social">
                                     <div class="img-holder">
-                                        <img src="assets/images/team/img-2.jpg" alt>
+                                        <img src="/images/team/img-2.jpg" alt>
                                     </div>
                                     <div class="social">
                                         <ul>
@@ -603,7 +603,7 @@
                             <div class="grid">
                                 <div class="img-social">
                                     <div class="img-holder">
-                                        <img src="assets/images/team/img-3.jpg" alt>
+                                        <img src="/images/team/img-3.jpg" alt>
                                     </div>
                                     <div class="social">
                                         <ul>
@@ -622,7 +622,7 @@
                             <div class="grid">
                                 <div class="img-social">
                                     <div class="img-holder">
-                                        <img src="assets/images/team/img-4.jpg" alt>
+                                        <img src="/images/team/img-4.jpg" alt>
                                     </div>
                                     <div class="social">
                                         <ul>
@@ -721,7 +721,7 @@
                         <div class="blog-grids">
                             <div class="grid">
                                 <div class="entry-media">
-                                    <img src="assets/images/blog/img-1.jpg" alt>
+                                    <img src="/images/blog/img-1.jpg" alt>
                                 </div>
                                 <div class="entry-body">
                                     <div class="cats">Industry, Factory</div>
@@ -732,7 +732,7 @@
                             </div>
                             <div class="grid">
                                 <div class="entry-media">
-                                    <img src="assets/images/blog/img-2.jpg" alt>
+                                    <img src="/images/blog/img-2.jpg" alt>
                                 </div>
                                 <div class="entry-body">
                                     <div class="cats">Industry, Factory</div>
@@ -743,7 +743,7 @@
                             </div>
                             <div class="grid">
                                 <div class="entry-media">
-                                    <img src="assets/images/blog/img-3.jpg" alt>
+                                    <img src="/images/blog/img-3.jpg" alt>
                                 </div>
                                 <div class="entry-body">
                                     <div class="cats">Industry, Factory</div>
@@ -798,7 +798,7 @@
                         <div class="col col-lg-3 col-md-3 col-sm-6">
                             <div class="widget about-widget">
                                 <div class="logo widget-title">
-                                    <img src="assets/images/footer-logo.png" alt>
+                                    <img src="/images/footer-logo.png" alt>
                                 </div>
                                 <p>Mikago arm towards the viewer gregor then turned to look out the window at the dull weather</p>
                                 <div class="social-icons">
@@ -892,14 +892,14 @@
 
     <!-- All JavaScript files
     ================================================== -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="{{asset('/js/jquery.min.js')}}"></script>
+    <script src="{{asset('/js/bootstrap.min.js')}}"></script>
 
     <!-- Plugins for this template -->
-    <script src="assets/js/jquery-plugin-collection.js"></script>
+    <script src="{{asset('/js/jquery-plugin-collection.js')}}"></script>
 
     <!-- Custom script for this template -->
-    <script src="assets/js/script.js"></script>
+    <script src="{{asset('/js/script.js')}}"></script>
 </body>
 
 <!-- dustech/index.html  13 Nov 2019 12:55:11 GMT -->
